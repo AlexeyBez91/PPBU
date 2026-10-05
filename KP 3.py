@@ -14,7 +14,7 @@ def sum():
        return
    s3 = e3.get()
    if not s3.lstrip('-').isdigit():
-       mb.showerror(title='Ошибка', message='Во второе поле должно быть введено целое число!')
+       mb.showerror(title='Ошибка', message='В третье поле должно быть введено целое число!')
        return
    slag_1 = int(s1)
    slag_2 = int(s2)
